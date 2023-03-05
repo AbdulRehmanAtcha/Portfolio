@@ -1,0 +1,57 @@
+.home-main-box{
+    height: 800px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.home-left{
+    width: 40%;
+    /* border: 1px solid green; */
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* padding: 20px; */
+}
+.home-right{
+    width: 40%;
+    /* border: 1px solid burlywood; */
+    height: 90%;
+    background-image: url(../../images/profile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-main-box .home-left .buttons{
+    display: flex;
+    column-gap: 8px;
+}
+.home-main-box .home-left .buttons button{
+    height: 35px;
+    width: 120px;
+    background: transparent;
+    color: #64ffda;
+    border: 1px solid #64ffda;
+    cursor: pointer;
+    transition: background 0.5s ease-in-out;
+}
+.home-main-box .home-left .buttons button:hover{
+    background: #133040;
+}
+@media screen and (max-width:1000px){
+    .home-main-box{
+        padding: 10px;
+        row-gap: 10px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        width: 88vw;
+    }
+    .home-left, .home-right{
+        width: 85%;
+        height: 50vh;
+    }
+}

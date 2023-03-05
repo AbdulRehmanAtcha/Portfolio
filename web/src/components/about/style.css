@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&family=Tilt+Neon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.about-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-head h2 span{
+  font-family: 'Roboto Mono', monospace;
+}
+.about-head h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 42px;
+  color: aliceblue;
+}
+.about-main-box {
+  height: 600px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.about-left {
+  width: 40%;
+  height: 80%;
+  border: 1px solid green;
+  background: url(../../images/profile.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 20px; */
+}
+.about-right {
+  width: 40%;
+  /* border: 1px solid burlywood; */
+  height: 80%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.about-right h2 {
+  text-align: center;
+  color: #ccd6f6;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 1000px) {
+  .about-main-box {
+    padding: 10px;
+    row-gap: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 88vw;
+  }
+  .about-left {
+    width: 85%;
+    height: 50vh;
+  }
+  .about-right h2 {
+    font-size: 0.9rem;
+  }
+  .about-right {
+    width: 85%;
+    height: auto;
+  }
+}

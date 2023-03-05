@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&family=Tilt+Neon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+.project-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-head h2 {
+  color: aliceblue;
+  font-family: "Rubik", sans-serif;
+  font-size: 42px;
+}
+.project-head h2 span {
+  font-family: "Roboto Mono", monospace;
+}
+.project-main {
+  min-height: 450px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  column-gap: 145px;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.box {
+  width: 350px;
+  border: 1px solid rgb(255, 255, 255);
+  position: relative;
+  overflow: hidden;
+  transition: display 0.5s linear;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 300px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+.overlay {
+  background: #0a192f;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* opacity: 0.5; */
+  transition: all 0.5s linear;
+}
+
+.box:hover > .overlay {
+  /* display: block; */
+  top: 0px;
+}
+.project .buttons {
+  width: 30%;
+  height: 40px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.project .buttons a {
+  width: 45px;
+  height: 35px;
+  background: transparent;
+  border-radius: 5px;
+  border: 1px solid #64ffda;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.5s ease-in-out;
+}
+.project .buttons a:hover {
+  background: #133040;
+}
+
+@media screen and (max-width: 1150px) {
+  .project-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+    margin-left: 2vw;
+    padding: 20px;
+    row-gap: 50px;
+    /* display: none; */
+  }
+  .box {
+    width: 80vw;
+    height: 300px;
+    margin-right: 16vw;
+  }
+  .project .buttons {
+    column-gap: 10px;
+  }
+  .project .box img {
+    width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 450px) {
+  .box {
+    width: 90vw;
+    height: 300px;
+    margin-left: 1vw;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 1100px) {
+  .box {
+    width: 80vw;
+    height: 300px;
+    margin-right: 12vw;
+  }
+}
