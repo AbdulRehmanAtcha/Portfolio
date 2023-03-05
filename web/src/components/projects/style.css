@@ -16,10 +16,8 @@
 }
 .project-main {
   min-height: 450px;
-  /* border: 1px solid red; */
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   column-gap: 145px;
   width: 100vw;
   overflow-x: hidden;
@@ -56,18 +54,15 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* opacity: 0.5; */
   transition: all 0.5s linear;
 }
 
 .box:hover > .overlay {
-  /* display: block; */
   top: 0px;
 }
 .project .buttons {
   width: 30%;
   height: 40px;
-  /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -97,7 +92,6 @@ h1 {
     margin-left: 2vw;
     padding: 20px;
     row-gap: 50px;
-    /* display: none; */
   }
   .box {
     width: 80vw;

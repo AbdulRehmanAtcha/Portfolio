@@ -1,6 +1,5 @@
 .home-main-box{
     height: 800px;
-    /* border: 1px solid red; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -9,16 +8,13 @@
 }
 .home-left{
     width: 40%;
-    /* border: 1px solid green; */
     height: 80%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /* padding: 20px; */
 }
 .home-right{
     width: 40%;
-    /* border: 1px solid burlywood; */
     height: 90%;
     background-image: url(../../images/profile.png);
     background-position: center;

@@ -29,11 +29,9 @@
 .contact-content h2 {
   font-family: "Fira Sans", sans-serif;
   color: #ccd6f6;
-  /* font-size: clamp(41px, 7vw, 34px); */
 }
 .form-box {
   height: auto;
-  /* border: 1px solid red; */
   width: 600px;
   margin: auto auto;
   display: flex;
@@ -63,7 +61,6 @@
 }
 footer{
   height: 55px;
-  /* border: 1px solid green; */
   display: flex;
   justify-content: center;
   align-items: center;

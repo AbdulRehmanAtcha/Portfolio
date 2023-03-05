@@ -17,7 +17,6 @@
 }
 .about-main-box {
   height: 600px;
-  /* border: 1px solid red; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -32,17 +31,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* padding: 20px; */
 }
 .about-right {
   width: 40%;
-  /* border: 1px solid burlywood; */
   height: 80%;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
-  /* align-items: center; */
-  /* justify-content: center; */
 }
 .about-right h2 {
   text-align: center;
