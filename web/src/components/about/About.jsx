@@ -2,9 +2,18 @@ import React from "react";
 import "./style.css";
 const About = () => {
   return (
-    <>
-      <div className="about-head" id="about">
-        <h2><span>02 </span>About Me</h2>
+    <div>
+      {/* <br  id="About" />
+      <br />
+      <br />
+      <br/>
+      <br />
+      <br />
+      <br /> */}
+      {/* <br />
+      <br /> */}
+      <div className="about-head">
+        <h2 ><span>02 </span>About Me</h2>
       </div>
       <div className="about-main-box">
         <div className="about-left"></div>
@@ -21,7 +30,7 @@ const About = () => {
           </h2>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

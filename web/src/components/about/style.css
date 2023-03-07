@@ -52,6 +52,7 @@
     display: flex;
     flex-direction: column-reverse;
     width: 88vw;
+    margin-left: 10px;
   }
   .about-left {
     width: 85%;
@@ -63,5 +64,13 @@
   .about-right {
     width: 85%;
     height: auto;
+  }
+  .about-head h2{
+    font-size: 2.2rem;
+  }
+}
+@media screen and (min-width:750px) and (max-width:999px){
+  .about-main-box{
+      margin-left: 34px;
   }
 }

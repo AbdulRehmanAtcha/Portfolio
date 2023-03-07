@@ -8,15 +8,26 @@ import coding from "../../images/coding.png";
 const Project = () => {
   return (
     <>
-      <div className="project-head" id="project">
-        <h2><span>04 </span>My Projects</h2>
+      {/* <br id="Projects" />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br /> */}
+      <div className="project-head">
+        <h2>
+          <span>04 </span>My Projects
+        </h2>
       </div>
       <br />
       <div className="project-main">
         <div className="project">
           <div className="box">
             <img src={weather} alt="" />
-            <div class="overlay">
+            <div className="overlay">
               <h1>Live Weather App</h1>
             </div>
           </div>
@@ -40,7 +51,7 @@ const Project = () => {
         <div className="project">
           <div className="box">
             <img src={textutils} alt="" />
-            <div class="overlay">
+            <div className="overlay">
               <h1>Textutils App</h1>
             </div>
           </div>
@@ -64,7 +75,7 @@ const Project = () => {
         <div className="project">
           <div className="box">
             <img src={textutils} alt="" />
-            <div class="overlay">
+            <div className="overlay">
               <h1>Textutils App</h1>
             </div>
           </div>

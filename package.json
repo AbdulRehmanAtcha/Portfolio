@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdulRehmanAtcha/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbdulRehmanAtcha/Portfolio/issues"
+  },
+  "homepage": "https://github.com/AbdulRehmanAtcha/Portfolio#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.1",
+    "npm-watch": "^0.11.0",
+    "path": "^0.12.7"
+  }
+}

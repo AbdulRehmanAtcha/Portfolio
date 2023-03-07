@@ -104,6 +104,9 @@ h1 {
   .project .box img {
     width: 100% !important;
   }
+  .project-head h2{
+    font-size: 2.2rem;
+  }
 }
 
 @media screen and (min-width: 200px) and (max-width: 450px) {

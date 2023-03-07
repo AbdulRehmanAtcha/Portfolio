@@ -1,33 +1,99 @@
-import React, { useState } from 'react';
-import hamburger from '../../images/hamburger.png'
-import close from '../../images/close.png'
-// import Link from 'react-scroll';
-import './style.css'
+import React, { useState } from "react";
+import hamburger from "../../images/hamburger.png";
+import close from "../../images/close.png";
+// import * as Scroll from 'react-scroll';
+import { Link } from "react-scroll";
+
+import "./style.css";
 
 const Navbar = () => {
-    const [isButtonClicked, setIsButtonClicked] = useState(false);
-    const toggleHandler = ()=>{
-        setIsButtonClicked(!isButtonClicked)
+  const [navBar, setNavBar] = useState(false);
+  const [isButtonClicked, setIsButtonClicked] = useState(false);
+  const toggleHandler = () => {
+    setIsButtonClicked(!isButtonClicked);
+  };
+  const changeBackGround = () => {
+    if (window.scrollY >= 80) {
+      setNavBar(true);
+    } else {
+      setNavBar(false);
     }
+  };
+  window.addEventListener("scroll", changeBackGround);
+
   return (
     <>
-      <nav>
+      <nav className={navBar ? "active" : ""}>
         <h2>Abdul Rehman</h2>
-        <div className='links'>
-            <ul id='navbar' className={isButtonClicked?"show":"hide"}>
-                <li><a href="#home"><span>01.</span> Home</a></li>
-                <li><a href="#about"><span>02.</span> About</a></li>
-                <li><a href="#skills"><span>03.</span> Skills</a></li>
-                <li><a href="#project"><span>04.</span> Projects</a></li>
-                <li><a href="#contact"><span>05.</span> Contact</a></li>
-            </ul>
+        <div className="links">
+          <ul id="navbar" className={isButtonClicked ? "show" : "hide"}>
+            <li>
+              <Link
+                to="Home"
+                smooth={true}
+                offset={30}
+                duration={500}
+                onClick={toggleHandler}
+              >
+                <span>01.</span>Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="About"
+                smooth={true}
+                offset={40}
+                duration={800}
+                onClick={toggleHandler}
+              >
+                <span>02.</span> About
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="Skills"
+                smooth={true}
+                offset={40}
+                duration={1100}
+                onClick={toggleHandler}
+              >
+                <span>03.</span> Skills
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="Projects"
+                smooth={true}
+                offset={40}
+                duration={1300}
+                onClick={toggleHandler}
+              >
+                <span>04.</span> Projects
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="Contact"
+                smooth={true}
+                offset={0}
+                duration={1400}
+                onClick={toggleHandler}
+              >
+                <span>05.</span> Contact
+              </Link>
+            </li>
+          </ul>
         </div>
-        <div id='mobile'>
-            <img src={isButtonClicked?close:hamburger} alt="" onClick={toggleHandler}/>
+        <div id="mobile">
+          <img
+            src={isButtonClicked ? close : hamburger}
+            alt=""
+            onClick={toggleHandler}
+          />
         </div>
       </nav>
     </>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

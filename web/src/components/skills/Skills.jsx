@@ -13,8 +13,19 @@ import check from "../../images/check.png";
 const Skills = () => {
   return (
     <>
-      <div className="skills-head" id="skills">
-        <h2><span>03 </span>My Skills</h2>
+      {/* <br  id="Skills" />
+      <br />
+      <br />
+      <br/>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br /> */}
+      <div className="skills-head">
+        <h2>
+          <span>03 </span>My Skills
+        </h2>
       </div>
       <br />
       <div className="skills-main-box">
@@ -29,7 +40,7 @@ const Skills = () => {
               <h2>HTML</h2>
             </div>
             <div className="skill">
-            <img
+              <img
                 src={check}
                 alt="Check"
                 style={{ width: "25px", height: "25px" }}
@@ -39,7 +50,7 @@ const Skills = () => {
           </div>
           <div className="skills-line">
             <div className="skill">
-            <img
+              <img
                 src={check}
                 alt="Check"
                 style={{ width: "25px", height: "25px" }}
@@ -47,7 +58,7 @@ const Skills = () => {
               <h2>Bootstrap</h2>
             </div>
             <div className="skill">
-            <img
+              <img
                 src={check}
                 alt="Check"
                 style={{ width: "25px", height: "25px" }}
@@ -57,7 +68,7 @@ const Skills = () => {
           </div>
           <div className="skills-line">
             <div className="skill">
-            <img
+              <img
                 src={check}
                 alt="Check"
                 style={{ width: "25px", height: "25px" }}
@@ -65,7 +76,7 @@ const Skills = () => {
               <h2>Firebase</h2>
             </div>
             <div className="skill">
-            <img
+              <img
                 src={check}
                 alt="Check"
                 style={{ width: "25px", height: "25px" }}
@@ -75,7 +86,7 @@ const Skills = () => {
           </div>
           <div className="skills-line">
             <div className="skill">
-            <img
+              <img
                 src={check}
                 alt="Check"
                 style={{ width: "25px", height: "25px" }}
@@ -83,7 +94,7 @@ const Skills = () => {
               <h2>MongoDB</h2>
             </div>
             <div className="skill">
-            <img
+              <img
                 src={check}
                 alt="Check"
                 style={{ width: "25px", height: "25px" }}

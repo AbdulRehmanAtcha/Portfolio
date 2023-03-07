@@ -4,8 +4,8 @@ import Typed from "react-typed";
 
 const Home = () => {
   return (
-    <>
-      <div className="home-main-box" id="home">
+    <div id="Home">
+      <div className="home-main-box">
         <div className="home-left">
           <Typed
             strings={["👋 Hello"]}
@@ -52,7 +52,7 @@ const Home = () => {
           
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
