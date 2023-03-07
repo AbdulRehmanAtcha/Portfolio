@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import Typed from "react-typed";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -44,13 +45,13 @@ const Home = () => {
           <br />
           <br />
           <div className="buttons">
-            <button>About Me</button>
+            <button>
+              <Link to="About" smooth={true} offset={0} duration={800}>About Me</Link>
+            </button>
             <button>Download CV</button>
           </div>
         </div>
-        <div className="home-right">
-          
-        </div>
+        <div className="home-right"></div>
       </div>
     </div>
   );

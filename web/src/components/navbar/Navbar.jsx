@@ -42,7 +42,7 @@ const Navbar = () => {
               <Link
                 to="About"
                 smooth={true}
-                offset={40}
+                offset={0}
                 duration={800}
                 onClick={toggleHandler}
               >

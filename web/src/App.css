@@ -22,5 +22,6 @@
 body {
   background-color: #0a192f;
   scroll-behavior: smooth;
+  z-index: -1;
   /* overflow-x: hidden; */
 }

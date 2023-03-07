@@ -32,14 +32,14 @@ const Project = () => {
             </div>
           </div>
           <div className="buttons">
-            <a href="/" title="Live View">
+            <a href="https://weather-app-ea290.web.app/" title="Live View" target="_blank" rel="noreferrer">
               <img
                 src={eye}
                 style={{ width: "30px", height: "30px" }}
                 alt="Live View"
               />
             </a>
-            <a href="/">
+            <a href="https://github.com/AbdulRehmanAtcha/Weather-App" title="View Code" target="_blank" rel="noreferrer">
               <img
                 src={coding}
                 style={{ width: "30px", height: "30px" }}
@@ -56,14 +56,14 @@ const Project = () => {
             </div>
           </div>
           <div className="buttons">
-            <a href="/" title="Live View">
+            <a href="https://textutils-2c15e.web.app" title="Live View" target="_blank" rel="noreferrer">
               <img
                 src={eye}
                 style={{ width: "30px", height: "30px" }}
                 alt="Live View"
               />
             </a>
-            <a href="/">
+            <a href="https://github.com/AbdulRehmanAtcha/React-course/tree/main/Textutils" title="View Code" target="_blank" rel="noreferrer">
               <img
                 src={coding}
                 style={{ width: "30px", height: "30px" }}
