@@ -9,14 +9,12 @@ import Skills from "./components/skills/Skills";
 import GridLoader from "react-spinners/GridLoader";
 
 function App() {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
-    setLoading(true);
-  }, []);
-  useEffect(() => {
-    window.onload = () => {
+    const timer = setTimeout(() => {
       setLoading(false);
-    };
+    }, 3000);
+    return () => clearTimeout(timer);
   }, []);
   return (
     <div>
