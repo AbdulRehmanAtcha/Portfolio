@@ -25,9 +25,9 @@
 }
 .about-left {
   width: 40%;
-  height: 80%;
-  border: 1px solid green;
-  background: url(../../images/profile.png);
+  height: 96%;
+  /* border: 1px solid green; */
+  background: url(../../images/profile2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -56,7 +56,7 @@
   }
   .about-left {
     width: 85%;
-    height: 50vh;
+    height: 54vh;
   }
   .about-right h2 {
     font-size: 0.9rem;
@@ -64,6 +64,7 @@
   .about-right {
     width: 85%;
     height: auto;
+    margin-top: 10px;
   }
   .about-head h2{
     font-size: 2.2rem;
@@ -71,6 +72,7 @@
 }
 @media screen and (min-width:750px) and (max-width:999px){
   .about-main-box{
-      margin-left: 34px;
+    row-gap: 30px;
+    margin-left: 34px;
   }
 }

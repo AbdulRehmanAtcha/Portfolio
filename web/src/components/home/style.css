@@ -16,7 +16,7 @@
 .home-right{
     width: 40%;
     height: 80%;
-    background-image: url(../../images/profile.png);
+    background-image: url(../../images/profile2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,10 +29,13 @@
     height: 35px;
     width: 120px;
     background: transparent;
-    color: #64ffda;
     border: 1px solid #64ffda;
     cursor: pointer;
     transition: background 0.5s ease-in-out;
+}
+.home-main-box .home-left .buttons button a{
+    color: #64ffda;
+    text-decoration: none;
 }
 .home-main-box .home-left .buttons button:hover{
     background: #133040;
@@ -49,6 +52,10 @@
     .home-left, .home-right{
         width: 85%;
         height: 50vh;
+    }
+    .home-right{
+        width: 85%;
+        height: 54vh;
     }
 }
 @media screen and (min-width:750px) and (max-width:999px){

@@ -4,6 +4,7 @@ import eye from "../../images/eye.png";
 import textutils from "../../images/textutils.jpg";
 import weather from "../../images/weather.png";
 import coding from "../../images/coding.png";
+import crud from "../../images/CRUD.jpeg";
 
 const Project = () => {
   return (
@@ -21,7 +22,10 @@ const Project = () => {
         <h2>
           <span>04 </span>My Projects
         </h2>
+        <br />
+        <p>You Can See all work on <a href="https://github.com/AbdulRehmanAtcha" target="_blank" rel="noreferrer">Github</a></p>
       </div>
+      <br />
       <br />
       <div className="project-main">
         <div className="project">
@@ -74,20 +78,20 @@ const Project = () => {
         </div>
         <div className="project">
           <div className="box">
-            <img src={textutils} alt="" />
+            <img src={crud} alt="" />
             <div className="overlay">
-              <h1>Textutils App</h1>
+              <h1>Complete CRUD with authentication</h1>
             </div>
           </div>
           <div className="buttons">
-            <a href="/" title="Live View">
+            <a href="https://abdul-project.cyclic.app" title="Live View" target="_blank" rel="noreferrer">
               <img
                 src={eye}
                 style={{ width: "30px", height: "30px" }}
                 alt="Live View"
               />
             </a>
-            <a href="/">
+            <a href="https://github.com/AbdulRehmanAtcha/project" title="View Code" target="_blank" rel="noreferrer">
               <img
                 src={coding}
                 style={{ width: "30px", height: "30px" }}

@@ -28,6 +28,7 @@ const Skills = () => {
         </h2>
       </div>
       <br />
+      <br />
       <div className="skills-main-box">
         <div className="skills-box">
           <div className="skills-line">

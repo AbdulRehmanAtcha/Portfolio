@@ -13,7 +13,7 @@ const Navbar = () => {
     setIsButtonClicked(!isButtonClicked);
   };
   const changeBackGround = () => {
-    if (window.scrollY >= 80) {
+    if (window.scrollY >= 40) {
       setNavBar(true);
     } else {
       setNavBar(false);
@@ -26,7 +26,7 @@ const Navbar = () => {
       <nav className={navBar ? "active" : ""}>
         <h2>Abdul Rehman</h2>
         <div className="links">
-          <ul id="navbar" className={isButtonClicked ? "show" : "hide"}>
+          <ul id="navbar" className={isButtonClicked ? "show": "hide"}>
             <li>
               <Link
                 to="Home"

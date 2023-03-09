@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .project-head h2 {
   color: aliceblue;
@@ -13,6 +14,15 @@
 }
 .project-head h2 span {
   font-family: "Roboto Mono", monospace;
+}
+.project-head p{
+  color: aliceblue;
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+}
+.project-head p a{
+  color: #64ffda;
+  text-decoration: none;
 }
 .project-main {
   min-height: 450px;
@@ -121,5 +131,12 @@ h1 {
     width: 80vw;
     height: 300px;
     margin-right: 12vw;
+  }
+}
+@media screen and (max-width: 350px) {
+  .project-head p{
+    color: aliceblue;
+    font-family: "Rubik", sans-serif;
+    font-size: 1rem;
   }
 }
