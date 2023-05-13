@@ -27,6 +27,8 @@ const About = () => {
             knowledge of HTML, CSS, JavaScript, and Bootstrap for creating
             visually appealing and responsive web interfaces. Also good
             knowledge of ExpressJs, MongoDB, and JWT. <br /> Aim to become a best MERN STACK DEVELOPER.
+            <br />
+            <b>Open Ror New Opportunities.</b>
           </h2>
         </div>
       </div>
