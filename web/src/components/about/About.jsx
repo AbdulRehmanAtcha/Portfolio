@@ -26,7 +26,7 @@ const About = () => {
             student passionate about ReactJs and related technologies. Sound
             knowledge of HTML, CSS, JavaScript, and Bootstrap for creating
             visually appealing and responsive web interfaces. Also good
-            knowledge of ExpressJs, MongoDB, and JWT. <br /> Aim to become a best MERN STACK DEVELOPER.
+            knowledge of ExpressJs, MongoDB, and JWT(Authentication). <br /> Aim to become a best MERN STACK DEVELOPER.
             <br />
             <b>Open For New Opportunities.</b>
           </h2>
