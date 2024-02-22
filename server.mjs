@@ -4,7 +4,7 @@ import cors from "cors";
 import mongoose, { Mongoose } from "mongoose";
 const MongoDBURI =
   process.env.MongoDBURI ||
-  "mongodb+srv://abdulrehman1239091:abdul123@cluster0.zcczzqa.mongodb.net/test?retryWrites=true&w=majority";
+  "mongodb+srv://abdulrehman1239091:abdul123@cluster0.lux4z9y.mongodb.net/test?retryWrites=true&w=majority";
 const app = express();
 const port = process.env.PORT || 5001;
 app.use(
